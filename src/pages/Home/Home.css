@@ -1,0 +1,139 @@
+html, body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Home{
+    padding: 0 15px;
+    margin: 15px 0 0;
+}
+
+.section-top{
+    background-color: #f0f0f0;
+    height: 100%;
+}
+
+.top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 18px;
+    padding: 0 15px;
+}
+
+.top-left, .top-right{
+    flex: 6;
+}
+
+.top-right{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.top-right img{
+    width: 100%;
+}
+
+.top-right {
+    position: relative;
+  }
+  
+  .top-right::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( #f0f0f0);
+  }
+  
+
+span.text{
+    font-size: 16px;
+    color: #dcb14a;
+    margin: 0 0 5px;
+    font-weight: 500;
+    width: 100%;
+    max-width: 50px;
+
+}
+
+.little-title{
+    line-height: 2;
+}
+
+.big-title{
+    font-size: 60px;
+    color: #111111;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 12px 0;
+    width: 100%;
+    max-width: 500px;
+}
+
+.big-title-div{
+    margin: 0 0 30px;
+    padding: 0 0 15px;
+    line-height: 1.5;
+}
+
+.big-title-underline{
+    width: 70px;
+    height: 3px;
+    background-color: #dcb14a;
+    margin: 0 0 ;
+    border: 1px solid #dcb14a;
+}
+
+p.desc{
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+p.second-par{
+    margin-top: 0;
+}
+
+.description{
+    line-height: 25px;
+}
+
+.shop-btn{
+    padding: 0 20px;
+    background-color: #111111;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    height: 38px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #f0f0f0;
+}
+
+.page-change{
+    width: 12px;
+    height: 12px;
+    margin: 0 15px 0 4px;
+    background-color: #B9B4C7;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+.best-selling-title{
+    margin: 0 0 50px;
+    padding: 0 0 10px;
+    text-align: center;
+}
+
+.best-selling-title h2{
+    font-size: 32px;
+    color: #111111;
+    margin: 0;
+    line-height: 1.5;
+}
+
+section.best-products{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 10px;
+}
+
+#best-selling{
+    padding: 0 15px;
+    margin: 0 15px;
+}
+
+h3.pro-title, span.pro-price{
+    text-align: center;
+}
+
+.line{
+    margin: auto;
+}

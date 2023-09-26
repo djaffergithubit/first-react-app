@@ -1,0 +1,120 @@
+html, body{
+    font-family: Roboto, sans-serif;
+    
+}
+
+.header-container{
+    height: 90px;
+    z-index: 3;
+    display: flex; 
+    align-items: center;
+}
+
+.background-white{
+    background-color: white;
+}
+
+.background-grey{
+    background-color: #f0f0f0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 12;
+    margin: 0 14px;
+    padding: 0 15px;
+    z-index: 2;
+}
+
+ul.rightBar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    flex: 3;
+    gap: 50px;
+
+}
+
+.middleBar{
+    flex: 6;
+    display: flex;
+    justify-content: center;
+}
+
+.leftBar{
+    flex: 3;
+}
+
+.inputs-field{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    border-bottom: 1px solid #B9B4C7;
+    padding: 10px 0 10px 0;
+
+}
+
+.leftBar input{
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.leftBar input::placeholder{
+    font-size: 16px;
+    color: #B9B4C7;
+}
+
+.wishList, .cart{
+    position: relative;
+}
+
+.leftBar{
+    padding-right: 35px;
+}
+
+.badge{
+    position: absolute;
+    background-color: #dcb14a;
+    padding: 2px 6px;
+    font-size: 12px;
+    border-radius: 50%;
+    right: -10px;
+    top: 12px;
+    cursor: pointer;
+}
+
+.rightBar-item i{
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.active{
+    background-color: #dcb14a;
+}
+
+.rightBar-item i:hover{
+    color: #dcb14a;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.leftBar i{
+    font-size: 18px;
+}
+
+.sticky{
+    top : 0;
+    position : sticky;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+
+

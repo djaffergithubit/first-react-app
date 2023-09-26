@@ -1,0 +1,94 @@
+.form-container{
+    padding: 100px 0;
+}
+
+.login-form-container{
+    width: 100%;
+    max-width: 482px;
+    margin: auto;
+    font-family: Roboto, sans-serif;
+}
+
+.inputs-container{
+    line-height: 5;
+}
+
+.login-register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 50px;
+}
+
+span.login, span.register{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+span.login{
+    margin-right: 45px;
+}
+
+span.color-1{
+    color: #666666;
+}
+
+span.color-2{
+    color: #000000;
+}
+
+h3.title-text{
+    font-size: 18px;
+    color: #111111;
+    margin: 0 0 25px;
+    font-weight: 500;
+}
+
+.username-input, .password-input, .email-input{
+    padding: 10px 20px;
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 442px;
+    border: 1px solid #B9B4C7;
+    outline: none;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.username-input::placeholder, .password-input::placeholder{
+    font-size: 16px;
+    color: #B9B4C7;
+    font-weight: 600;
+}
+
+.remember-lost{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 2;
+    margin-bottom: 30px;
+}
+
+p.password-forget{
+    margin: 0;
+}
+
+.login-register-btn{
+    padding: 0 40px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #000000;
+    width: 100%;
+    border: 1px solid #000000;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+p.warning{
+    line-height: 1.5;
+    margin: 10px 0 25px;
+}

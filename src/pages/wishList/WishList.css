@@ -1,0 +1,160 @@
+.shopping-btn{
+    padding: 0 42px;
+    height: 46px;
+    background-color: #111111;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 25px 0 0;
+    border: none;
+}
+
+.wishlist{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 80px 0 100px;
+}
+
+.djd{
+    padding: 0 15px;
+}
+
+.cart-product-title{
+    margin: 0;
+}
+
+.cart-product-title:hover{
+    color: #dcb14a;
+}
+
+h5.message{
+    font-size: 20px;
+    color: #000000;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.wishlist-items{
+    margin: 0 34px;
+}
+
+h4.cart-product-title{
+    font-size: 14px;
+    columns: #111111;
+    cursor: pointer;
+}
+
+span.price{
+    font-size: 14px;
+    color: #111111;
+    line-height: 2;
+    padding: 30px 1px;
+    font-weight: 600;
+}
+
+button.buy-btn{
+    padding: 0 42px;
+    height: 46px;
+    cursor: pointer;
+}
+
+.buy-btn-colors{
+    background-color: #111111;
+    color: white;
+    border: none;
+    font-size: 14px;
+
+}
+
+button.remove-btn{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button.remove-btn i:hover{
+    color: red;
+}
+
+.cart-img{
+    width: 100px;
+    cursor: pointer;
+}
+
+.cart-img img{
+    width: 74px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.row-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 30px 0;
+    background-color: #0A1931;
+    opacity: 1;
+}
+
+.image-title, .right-part{
+    flex: 6;
+}
+
+.image-title-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.right-part-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titles{
+    display: flex;
+    align-items: center;
+    line-height: 2;
+    background-color: #f0f0f0;
+    margin: 0 34px;
+}
+
+.column-1, .column-2{
+    flex: 6;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.column-1{
+    padding: 12px 1px 12px 100px;
+}
+
+.clear-btn-container{
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 0 0;
+}
+
+.clear-btn{
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #111111;
+    font-size: 16px;
+    margin: 0 34px;
+}
+
+.border-bottom{
+    border-bottom: 1px solid grey;
+}
+.column-2{
+    padding: 12px 100px 12px 1px;
+}

@@ -1,0 +1,259 @@
+.single-product-page{
+    font-family: Roboto, sans-serif;
+}
+
+/*top-part*/
+
+.single-product-top-container{
+    padding: 90px 0;
+}
+
+.single-product-medium-container{
+    padding: 95px 0
+}
+
+.single-product-top-container, .single-product-medium, .single-product-bottom-container{
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.single-product-top{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 0 15px;
+    margin: 0 50px;
+    background-color: white;
+    position: relative;
+    
+}
+
+.single-product-top-active{
+    padding: 0;
+}
+
+.product-img img{
+    width: 100%;
+    max-width: 585px;
+    height: 100%;
+}
+
+h3.product-name{
+    font-size: 28px;
+    margin: 0 0 10px;
+    color: #111111;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+span.product-price{
+    font-size: 30px;
+    margin: 0 0 25px;
+    color: #999999;
+    font-weight: 400;
+}
+
+p.par{
+    font-size: 14px;
+    color: #000000;
+    margin: 20px 20px 0 0;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 450px;
+}
+
+.counter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    color: #000000;
+    border: 2px solid #f0f0f0;
+    padding: 0 10px;
+    margin-right: 15px;
+    height: 46px;
+    width: 120px;
+}
+
+button.minus, button.plus{
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button.add-cart{
+    font-size: 16px;
+    padding: 0 42px;
+    height: 46px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin: 0 15px 0 0;
+    cursor: pointer;
+}
+
+button.like-btn{
+    font-size: 16px;
+    height: 46px;
+    width: 46px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #f0f0f0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.features-container{
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.items div{
+    line-height: 2;
+}
+
+span.name, span.text-black{
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+}
+
+span.res{
+    font-size: 16px;
+    color: #666666;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.social-share{
+    padding: 60px 0 0 0;
+}
+
+.product-infos-active{
+    padding: 40px 30px;
+}
+/*medium-part*/
+
+.single-product-medium-container{
+    padding: 95px 0 0 0;
+}
+
+.single-product-medium{
+    padding: 0 15px;
+    margin: 0px 50px;
+}
+
+ul.nav-single-pro{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+    padding: 0 0 20px 0;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.nav-single-pro-item{
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.nav-single-pro-item:enabled{
+    color: #dcb14a;
+}
+
+h2.text{
+    margin: 0 0 10px;
+    font-size: 24px;
+    color: #000000;
+    font-weight: 500;
+}
+
+p.describe{
+    font-size: 16px;
+    line-height: 2;
+    color: #000000;   
+}
+
+.descriptionText{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.image-container img{
+    width: 100%;
+    max-width: 500px;
+}
+
+.image-container{
+    flex: 5;
+}
+
+.unknown, .features-container-1{
+    flex: 7;
+}
+
+/*medium-part*/
+.single-product-bottom-container{
+    padding: 30px 0;
+}
+
+.single-product-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 0 15px;
+    margin: 0 50px;
+}
+
+.image{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex: 5;
+}
+
+.photo{
+    width: 100%;
+    max-width: 500px;
+}
+
+ul.features{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    width: 100%;
+    line-height: 2;
+}
+
+li.features-item{
+    font-size: 16px;
+    color: #000000;
+}
+
+.list-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.list-container:hover, li.features-item:hover{
+    color: #dcb14a;
+}
+
+.position{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
